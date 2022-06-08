@@ -1,3 +1,9 @@
+/* Criação das Cores. */
+:root {
+    --preto: rgb(36, 35, 35);
+    --branco: #EEE;
+}
+
 /* Customização da Página. */
 * {
     padding: 0;
@@ -8,8 +14,8 @@
 
 /* Customização do Cabeçalho. */
 header {
-    background-color: black;
-    color: #EEE;
+    background-color: var(--preto);
+    color: var(--branco);
     padding: 15px;
     text-align: center;
 }
@@ -18,7 +24,7 @@ header h1 {
     font-family: 'bebas neue';
     font-weight: 100;
     font-size: 50px;
-    border: 1px solid #EEE;  
+    border: 1px solid var(--branco);  
     width: 25%;
     margin-left: 37.5%;
     padding: 10px;
@@ -30,19 +36,19 @@ header:hover {
     transform: scale(1.3);
     transition: 0.9s;
     cursor: pointer;
-    color: black;
-    background-color: #EEE;
+    color: var(--preto);
+    background-color: var(--branco);
 }
 
 header h1:hover {
-    background-color: black;
-    color: #EEE;
+    background-color: var(--preto);
+    color: var(--branco);
     transition: 0.9s;
 }
 
 /* Customização do Grid de Produtos. */
 .container {
-    background-color: #EEE;
+    background-color: var(--branco);
     min-height: 60vh;
     padding: 50px;
 }
@@ -65,7 +71,7 @@ header h1:hover {
     margin-bottom: 10px;
     background-position: center;
     background-size: cover;
-    border: 1px solid black;
+    border: 1px solid var(--preto);
     border-radius: 10px;
 }
 
@@ -103,9 +109,9 @@ header h1:hover {
 /* Customização da Descrição dos Produtos */
 h3 {
     margin-bottom: 10px;
-    color: black;
+    color: var(--preto);
     font-size: 24px;
-    border-left: 5px solid black;
+    border-left: 5px solid var(--preto);
     padding-left: 7px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -124,11 +130,11 @@ h3 {
 
 .btn {
     text-decoration: none;
-    background-color: #EEE;
-    border: 1px solid black;
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
     border-radius: 5px;
     padding: 10px;
-    color: black;
+    color: var(--preto);
     display: block;
     width: 115px;
     text-align: center;
@@ -136,8 +142,8 @@ h3 {
 }
 
 .btn:hover {
-    color: #EEE;
-    background-color: black;
+    color: var(--branco);
+    background-color: var(--preto);
 }
 
 /* Customização do Elemento Fixo */
@@ -151,23 +157,23 @@ h3 {
     padding: 10px;
     text-align: center;
 
-    background-color: #EEE;
-    color: black;
-    border: 1px solid black;
+    background-color: var(--branco);
+    color: var(--preto);
+    border: 1px solid var(--preto);
 }
 
 .elemento-fixo:hover {
-    color: #EEE;
-    background-color: black;
+    color: var(--branco);
+    background-color: var(--preto);
     transition: 0.9s;
-    border: 1px solid #EEE;
+    border: 1px solid var(--branco);
     cursor: pointer;
 }
 
 /* Customização do Rodapé. */
 footer {
-    background-color: black;
-    color: #EEE;
+    background-color: var(--preto);
+    color: var(--branco);
     text-align: center;
     padding: 15px;
 }
