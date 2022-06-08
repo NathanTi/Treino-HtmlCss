@@ -18,7 +18,7 @@ header h1 {
     font-family: 'bebas neue';
     font-weight: 100;
     font-size: 50px;
-    border: 1px solid white;  
+    border: 1px solid #EEE;  
     width: 25%;
     margin-left: 37.5%;
     padding: 10px;
@@ -35,8 +35,9 @@ header:hover {
 }
 
 header h1:hover {
-    border: 1px solid black;
-    width: 25%;
+    background-color: black;
+    color: #EEE;
+    transition: 0.9s;
 }
 
 /* Customização do Grid de Produtos. */
