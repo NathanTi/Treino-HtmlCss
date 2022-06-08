@@ -1,0 +1,162 @@
+/* Customização da Página. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Customização do Cabeçalho. */
+header {
+    background-color: black;
+    color: #EEE;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'bebas neue';
+    font-weight: 100;
+    font-size: 50px;
+}
+
+header:hover {
+    transform: scale(1.3);
+    transition: 0.9s;
+    cursor: pointer;
+    color: black;
+    background-color: #EEE;
+    border: 1px solid black;
+}
+
+/* Customização do Grid de Produtos. */
+.container {
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.product-image:hover {
+    border: none;
+    transform: scale(1.3);
+    transition: 0.9s;
+}
+
+/* Customização das Imagens. */
+#img-1 {
+    background-image: url('../img/img1.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/img2.jpg');
+}
+
+#img-3 {
+    background-image: url('../img/img3.png');
+}
+
+#img-4 {
+    background-image: url('../img/img4.webp');
+}
+
+#img-5 {
+    background-image: url('../img/img5.webp');
+}
+
+#img-6 {
+    background-image: url('../img/img6.webp');
+}
+
+/* Customização da Descrição dos Produtos */
+h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 24px;
+    border-left: 5px solid black;
+    padding-left: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.card p {
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #EEE;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    display: block;
+    width: 115px;
+    text-align: center;
+    transition: 0.9s;
+}
+
+.btn:hover {
+    color: #EEE;
+    background-color: black;
+}
+
+/* Customização do Elemento Fixo */
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 7%;
+    margin-left: 86.6%;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #EEE;
+    color: black;
+    border: 1px solid black;
+}
+
+.elemento-fixo:hover {
+    color: #EEE;
+    background-color: black;
+    transition: 0.9s;
+    border: 1px solid #EEE;
+    cursor: pointer;
+}
+
+/* Customização do Rodapé. */
+footer {
+    background-color: black;
+    color: #EEE;
+    text-align: center;
+    padding: 15px;
+}
